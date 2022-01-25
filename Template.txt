@@ -1,0 +1,69 @@
+TYPE,DROPDOWN,ImageType
+ImageType,LABEL,Type of Image
+ImageType,OPTION,Link,Link from Web
+ImageType,OPTION,Default,Default Images
+
+TYPE,TEXT,ImageLink
+ImageLink,LABEL,Link of Image
+
+TYPE,DROPDOWN,DefaultImages
+DefaultImages,LABEL,Default Images
+DefaultImages,OPTION,Car,Fancy Car
+DefaultImages,OPTION,ElonMusk,Wealthy Man
+DefaultImages,OPTION,Cat,Cute Kitty
+DefaultImages,OPTION,Pizza,Yummy Pizza
+
+TYPE,BUTTON,LoadImage
+LoadImage,LABEL,Load Image
+
+TYPE,BUTTON,Undo
+Undo,LABEL,Undo Change
+
+TYPE,BUTTON,Redo
+Redo,LABEL,Redo Change
+
+TYPE,BUTTON,Crop
+Crop,LABEL,Crop Image
+
+TYPE,BUTTON,EndCrop
+EndCrop,LABEL,End Crop
+
+TYPE,BUTTON,Pencil
+Pencil,LABEL,Use Pencil
+
+TYPE,BUTTON,EndPencil
+EndPencil,LABEL,Stop Pencil
+
+TYPE,RANGE,Red
+Red,LABEL,Red RGB Value
+Red,MIN,0
+Red,MAX,255
+Red,STEP,1
+Red,VALUE,0
+
+TYPE,RANGE,Blue
+Blue,LABEL,Blue RGB Value
+Blue,MIN,0
+Blue,MAX,255
+Blue,STEP,1
+Blue,VALUE,0
+
+TYPE,RANGE,Green
+Green,LABEL,Green RGB Value
+Green,MIN,0
+Green,MAX,255
+Green,STEP,1
+Green,VALUE,0
+
+TYPE,RANGE,Size
+Size,LABEL,Pen Size
+Size,MIN,0
+Size,MAX,50
+Size,STEP,1
+Size,VALUE,5
+
+TYPE,TEXT,SaveName
+SaveName,LABEL,Save Image Name
+
+TYPE,BUTTON,Save
+Save,LABEL,Save Image Now
